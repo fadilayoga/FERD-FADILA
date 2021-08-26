@@ -14,16 +14,11 @@ body {
 }
 
 .category p {
-    margin-bottom: 10px;
     font-weight: bold;
 }
 
 .category-value {
     display: inline-block;
-}
-
-.category-value p {
-    margin-bottom: 10px;
 }
 
 .form-head {
@@ -53,6 +48,10 @@ body {
     padding-left: 20px;
 }
 
+.head-right p {
+    margin-bottom: 15px;
+}
+
 .navbar {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: white;
@@ -79,7 +78,7 @@ body {
 .side-img {
     display: inline-block;
     vertical-align: middle;
-    width: 300px;
+    width: 250px;
 }
 
 .side-img h1 {

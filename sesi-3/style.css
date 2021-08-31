@@ -1,0 +1,14 @@
+.jumbotron {
+    background-color: #e9ecef;
+    border-radius: .3rem;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body .btn{
+    width: fit-content;
+    margin-top: auto;
+}

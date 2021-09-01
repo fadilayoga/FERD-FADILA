@@ -11,7 +11,8 @@ h2 {
     text-align: center;
 }
 
-.content {
+.container {
+    position: relative;
     font-size: 0;
     width: 800px;
     height: fit-content;
@@ -19,18 +20,21 @@ h2 {
 }
 
 .content-left {
+    position: absolute;
     font-size: 1rem;
-    width: 68%;
+    width: 67%;
     display: inline-block;
+    margin-top: 75px;
 }
 
 .content-right {
+    position: absolute;
     font-size: 1rem;
     width: 30%;
     display: inline-block;
     height: min-content;
     vertical-align: top;
-    margin-left: 2%;
+    right: 0;
     box-sizing: border-box;
 }
 
@@ -52,8 +56,15 @@ h2 {
     background-color: white;
 }
 
+.menu {
+    position: absolute;
+    font-size: 1rem;
+    width: 67%;
+}
+
 .navigation {
     background-color: #F68638;
+    display: block;
 }
 
 .navigation a {
@@ -66,19 +77,27 @@ h2 {
     text-decoration: none;
 }
 
-@media only screen and (max-width: 600px) and (min-width: 321px) {
-    .content {
+@media only screen and (max-width: 768px) and (min-width: 321px) {
+    .container {
         width: fit-content;
     }
 
     .content-left {
+        position: unset;
         display: block;
         width: 100%;
+        margin-top: 0;        
     }
 
     .content-right {
+        position: unset;
         display: block;
         width: 100%;
-        margin: 20px 0 0 0;
+        margin: 20px 0 20px 0;
+    }
+
+    .menu {
+        position: unset;
+        width: 100%;
     }
 }

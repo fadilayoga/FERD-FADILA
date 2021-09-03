@@ -1,0 +1,12 @@
+mendefinisikan variable jari-jari
+mendefinisikan variable phi dengan nilai 3.14
+mendefinisikan variable luas
+mendefinisikan variable keliling
+
+Memasukkan nilai jari-jari
+
+menghitung nilai luas (phi x jari-jari x jari-jari)
+menghitung nilai keliling (2 x phi x jari-jari)
+
+menampilkan nilai luas
+menampilkan nilai output

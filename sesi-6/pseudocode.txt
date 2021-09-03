@@ -1,0 +1,15 @@
+STORE "jari-jari" without any value
+STORE "phi" with 3.14
+STORE "Luas" without any value
+STORE "Keliling" without any value
+
+INPUT any number to the "jari-jari"
+
+CALCULATE "phi" times "jari-jari" times "jari-jari"
+SET "luas" value with calculation result
+
+CALCULATE 2 times "phi" times "jari-jari"
+SET "keliling" value with calculation result
+
+DISPLAY "Luas"
+DISPLAY "Keliling"

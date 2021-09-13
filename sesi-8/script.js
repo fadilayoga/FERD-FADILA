@@ -24,6 +24,10 @@ let input_email = document.getElementById("input-email");
 let input = document.querySelectorAll("input")
 
 const editData = () => {
+    input.forEach(item => {
+        item.style.borderColor = "#4F4F4F"
+    })
+
     input_nama.value = nama.innerText
     input_role.value = role.innerText
     input_availability.value = availability.innerText

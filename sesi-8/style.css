@@ -1,0 +1,165 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #F6F7FC;
+    font-family: Arial, Helvetica, sans-serif, Courier, monospace;
+}
+
+input {
+    padding-left: 10px;
+    border-color: #4F4F4F;
+    border-width: 0.6px;
+}
+
+.category {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.category p {
+    font-weight: bold;
+}
+
+.category-value {
+    display: inline-block;
+}
+
+.form-head {
+    background-color: white;
+    padding: 10px;
+    margin: 20px auto 0 auto;
+    box-sizing: border-box;
+}
+
+.head-left {
+    display: inline-block;
+    width: fit-content;
+}
+
+.head-left img {
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50%;
+    height: 200px;
+}
+
+.head-right {
+    display: inline-block;
+    vertical-align: middle;
+    border-left: 1px solid #e6e6e6;
+    padding-left: 20px;
+}
+
+.head-right p {
+    margin-bottom: 15px;
+}
+
+.side-img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 250px;
+}
+
+.side-img h1 {
+    margin-bottom: 10px;
+}
+
+.side-img button {
+    margin-top: 0;
+    width: 80px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.side-img .edit {
+    background-color: blue;
+    color: white;
+    margin-right: 10px;
+}
+
+.side-img .edit:active {
+    background-color: #4949ff;
+}
+
+.side-img .resume {
+    background-color: white;
+    color: #7bdd4a;
+    border-color: #7bdd4a;
+}
+
+.form {
+    background-color: white;
+    margin: 20px auto 0 auto;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.form label {
+    font-weight: bold;
+}
+
+.form input {
+    width: 100%;
+    height: 35px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.form .button {
+    width: 100%;
+    height: 35px;
+    background-color: #2F6E13;
+    color: white;
+    border-radius: 3px;
+    border-style: none;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.form .button:active {
+    background-color: #4f9232;
+}
+
+@media only screen and (max-width: 1000px) {
+    .container {
+        min-width: 450px;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    .form-head {
+        width: 100%;
+    }
+
+    .head-left {
+        display: block;
+        margin: 0 auto 20px auto;
+    }
+
+    .head-left img {
+        display: block;
+        margin: auto;
+    }
+
+    .head-right {
+        display: block;
+        margin: auto;
+        min-width: 400px;
+        border: none;
+        padding: 0;
+        text-align: center;
+    }
+
+    .head-right div {
+        text-align: left;
+    }
+
+    .side-img {
+        text-align: center;
+    }
+}

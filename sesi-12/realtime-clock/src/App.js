@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import './App.css';
 import ClockClass from './components/ClockClass.js'
 import ClockFunctional from './components/ClockFuntional.js'

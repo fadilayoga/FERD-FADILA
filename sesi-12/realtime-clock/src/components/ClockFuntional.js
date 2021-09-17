@@ -17,7 +17,7 @@ export default function Clockclass() {
         <div className="App">
             <h1>Functional Realtime CLOCK</h1>
             <hr />
-            <h1>{date.toLocaleTimeString()}</h1>
+            <h1>{date.toLocaleString()}</h1>
         </div>
     )
 }

@@ -22,12 +22,12 @@ const Content = () => {
     let name = document.getElementById("name")
 
     if (e.target.value === "Antrikan!") {
-      setName([...antrian, {
+      setName([{
         id: antrian.length,
         value: name.value
-      }])
+      }, ...antrian])
     } else {
-      antrian.shift()
+      antrian.pop()
       setName([...antrian])
     }
   }

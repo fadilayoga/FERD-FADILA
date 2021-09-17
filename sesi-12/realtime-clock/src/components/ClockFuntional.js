@@ -4,7 +4,7 @@ export default function Clockclass() {
     const [date, setDate] = useState(new Date())
 
     useEffect(() => {
-        
+        document.title = date
     }, [date])
 
     function tick() {

@@ -4,9 +4,9 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
-import Navbar from './components/Navbar.js'
-import Home from './components/Home.js'
-import Users from './components/User.js'
+import Navbar from './pages/Navbar.js'
+import Home from './pages/Home.js'
+import Users from './pages/User.js'
 
 function App() {
   return (

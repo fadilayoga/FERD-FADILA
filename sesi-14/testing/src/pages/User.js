@@ -8,13 +8,13 @@ export default function Users() {
         fetch('https://jsonplaceholder.typicode.com/users')
             .then((response) => response.json())
             .then((data) => setUsers(data))
-    },[])
+    }, [])
 
     return (
         <div className="container">
-            <Link to="/"><button type="button" class="btn btn-success m-2 mt-4">Back to Home</button></Link>
+            <Link to="/"><button type="button" className="btn btn-success m-2 mt-4">Back to Home</button></Link>
             <table className="table table-striped w-50 m-2">
-                <thead class="table-dark">
+                <thead className="table-dark">
                     <tr>
                         <td>ID</td>
                         <td>Name</td>

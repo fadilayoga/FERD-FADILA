@@ -1,0 +1,34 @@
+[
+    {        
+        "task": "Create Template",
+        "status": "backlog"
+    },
+    {        
+        "task": "Create Mockup",
+        "status": "backlog"
+    },
+    {        
+        "task": "Adjust the web header",
+        "status": "backlog"
+    },
+    {        
+        "task": "Initiate Docker for the project",
+        "status": "progress"
+    },
+    {        
+        "task": "Finalize the T.O.R",
+        "status": "evaluation"
+    },
+    {        
+        "task": "Recruit Ruby developers",
+        "status": "done"
+    },
+    {        
+        "task": "Recruit FE developers",
+        "status": "done"
+    },
+    {        
+        "task": "Recruit Project Manager",
+        "status": "done"
+    }
+]
